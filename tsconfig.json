@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Module + Target */
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+
+    /* Node.js Types */
+    "lib": ["esnext"],
+    "types": ["node"],
+
+    /* Import/Export Behavior */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Build Options */
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Misc */
+    "isolatedModules": true,
+    "moduleDetection": "force"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
